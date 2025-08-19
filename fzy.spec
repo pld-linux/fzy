@@ -1,11 +1,11 @@
 Summary:	A simple, fast fuzzy finder for the terminal
 Name:		fzy
-Version:	1.0
+Version:	1.1
 Release:	1
 License:	MIT
 Group:		Applications/Shells
-Source0:	https://github.com/jhawthorn/fzy/releases/download/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	2d63086ddf03ccfb3f18f9a8af08203a
+Source0:	https://github.com/jhawthorn/fzy/archive/v%{version}/%{name}-%{version}.tar.gz
+# Source0-md5:	8cebf57a094b4937ac8751cbefdccbbb
 URL:		https://github.com/jhawthorn/fzy
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
